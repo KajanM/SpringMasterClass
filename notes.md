@@ -25,3 +25,6 @@ JDBC URL: jdbc:h2:mem:testdb
 
 `public interface BookRepository extends CrudRepository<Book, Long>`
 
+## Bootstrapping DB with mock data
+
+`public class DevBootStrap implements ApplicationListener<ContextRefreshedEvent>`
