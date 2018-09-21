@@ -1,4 +1,4 @@
-package com.kajan.spring5webapp;
+package com.kajan.spring5webapp.controller;
 
 import com.kajan.spring5webapp.repository.BookRepository;
 import org.springframework.stereotype.Controller;
