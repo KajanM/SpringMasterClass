@@ -1,5 +1,6 @@
 ## Annotations
 
+### Spring Data JPA
 `@Entity`
 
 ```
@@ -15,6 +16,11 @@
 ```
 
 ` @ManyToMany(mappedBy = "authors")`
+
+### DI
+
+`@Qualifier("constructorGreetingService)`
+`@Primary`
 
 ## H2 database
 
