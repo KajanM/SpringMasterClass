@@ -12,7 +12,8 @@ public class Book {
     private Long id;
     private String title;
     private String isbn;
-    private Publisher pulisher;
+    @OneToOne
+    private Publisher publisher;
 
     @ManyToMany
     @JoinTable(name = "author_book", joinColumns = @JoinColumn(name = "book_id"),
@@ -22,17 +23,25 @@ public class Book {
     public Book() {
     }
 
-    public Book(String title, String isbn, Publisher pulisher) {
+    public Book(String title, String isbn, Publisher publisher) {
         this.title = title;
         this.isbn = isbn;
-        this.pulisher = pulisher;
+        this.publisher = publisher;
     }
 
-    public Book(String title, String isbn, Publisher pulisher, Set<Author> authors) {
+    public Book(String title, String isbn, Publisher publisher, Set<Author> authors) {
         this.title = title;
         this.isbn = isbn;
-        this.pulisher = pulisher;
+        this.publisher = publisher;
         this.authors = authors;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getTitle() {
@@ -51,12 +60,12 @@ public class Book {
         this.isbn = isbn;
     }
 
-    public Publisher getPulisher() {
-        return pulisher;
+    public Publisher getPublisher() {
+        return publisher;
     }
 
-    public void setPulisher(Publisher pulisher) {
-        this.pulisher = pulisher;
+    public void setPublisher(Publisher publisher) {
+        this.publisher = publisher;
     }
 
     public Set<Author> getAuthors() {
@@ -86,7 +95,7 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", pulisher='" + pulisher + '\'' +
+                ", publisher='" + publisher + '\'' +
                 ", authors=" + authors +
                 '}';
     }
