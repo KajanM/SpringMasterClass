@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring5webapp/spring5webapp.iml" filepath="$PROJECT_DIR$/spring5webapp/spring5webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring5webapp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring5webapp_main.iml" group="spring5webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring5webapp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring5webapp_test.iml" group="spring5webapp" />
+    </modules>
+  </component>
+</project>
