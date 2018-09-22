@@ -1,0 +1,4 @@
+package com.kajan.petclinic.model;
+
+public class Vet extends Person {
+}
