@@ -34,3 +34,9 @@ JDBC URL: jdbc:h2:mem:testdb
 ## Bootstrapping DB with mock data
 
 `public class DevBootStrap implements ApplicationListener<ContextRefreshedEvent>`
+
+## Profiles
+
+`@Profile("en")`
+`spring.profiles.active=es`
+`@Profile({"en", "default"})`
