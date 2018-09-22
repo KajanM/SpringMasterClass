@@ -1,5 +1,9 @@
 ## Annotations
 
+`@ComponentScan(basePackages = {"<pacakge>",...})`
+This will override the default behavior of `@SpringBootApplication` annotation.
+So need to add all necessary packages.
+
 ### Spring Data JPA
 `@Entity`
 
