@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="879fac1c-2b18-49dd-a66a-da5f2a677c94" name="Default Changelist" comment="added thymeleaf template to show books list">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="879fac1c-2b18-49dd-a66a-da5f2a677c94" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/spring5webapp/.gradle/" />
     <ignored path="$PROJECT_DIR$/spring5webapp/build/" />
     <ignored path="$PROJECT_DIR$/spring5webapp/out/" />
     <ignored path="$PROJECT_DIR$/petclinic/.gradle/" />
     <ignored path="$PROJECT_DIR$/petclinic/build/" />
     <ignored path="$PROJECT_DIR$/petclinic/out/" />
+    <ignored path="$PROJECT_DIR$/spring5-di-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +51,13 @@
     <session id="43522711">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,8 +65,10 @@
           <entry key="gitignore" value="2" />
           <entry key="gradle" value="3" />
           <entry key="html" value="1" />
-          <entry key="java" value="9" />
-          <entry key="md" value="1" />
+          <entry key="java" value="12" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -75,27 +76,29 @@
         <counts>
           <entry key="Groovy" value="3" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="9" />
-          <entry key="Markdown" value="1" />
+          <entry key="JAVA" value="12" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="3" />
-          <entry key="gradle" value="1" />
+          <entry key="gradle" value="5" />
           <entry key="java" value="318" />
-          <entry key="md" value="2" />
-          <entry key="txt" value="91" />
+          <entry key="md" value="179" />
+          <entry key="txt" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="1" />
+          <entry key="Groovy" value="5" />
           <entry key="JAVA" value="318" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="94" />
+          <entry key="Markdown" value="179" />
+          <entry key="PLAIN_TEXT" value="178" />
         </counts>
       </usages-collector>
     </session>
@@ -103,19 +106,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petclinic/settings.gradle">
+        <entry file="file://$PROJECT_DIR$/spring5-di-demo/src/main/java/guru/springframework/DiDemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="143">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring5-di-demo/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petclinic/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+            <state relative-caret-position="510">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring5webapp/src/main/java/com/kajan/spring5webapp/model/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,6 +163,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -575,10 +607,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/petclinic" value="6150064206000" />
+        <entry key="$PROJECT_DIR$/petclinic" value="6150064344000" />
         <entry key="$PROJECT_DIR$/petclinic/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/petclinic/build.gradle" value="2466083960" />
-        <entry key="$PROJECT_DIR$/petclinic/gradle/wrapper/gradle-wrapper.properties" value="1613248354" />
+        <entry key="$PROJECT_DIR$/petclinic/build.gradle" value="60868885" />
+        <entry key="$PROJECT_DIR$/petclinic/gradle/wrapper/gradle-wrapper.properties" value="2077093676" />
         <entry key="$PROJECT_DIR$/petclinic/settings.gradle" value="1308239092" />
         <entry key="$PROJECT_DIR$/spring5webapp" value="6149993973000" />
         <entry key="$PROJECT_DIR$/spring5webapp/.gradle" value="0" />
@@ -978,12 +1010,13 @@
         <option value="$PROJECT_DIR$/spring5webapp/src/main/java/com/kajan/spring5webapp/model/Publisher.java" />
         <option value="$PROJECT_DIR$/spring5webapp/src/main/java/com/kajan/spring5webapp/repository/PublisherRepository.java" />
         <option value="$PROJECT_DIR$/spring5webapp/src/main/java/com/kajan/spring5webapp/bootstrap/DevBootStrap.java" />
-        <option value="$PROJECT_DIR$/notes.md" />
         <option value="$PROJECT_DIR$/spring5webapp/src/main/java/com/kajan/spring5webapp/BookController.java" />
         <option value="$PROJECT_DIR$/spring5webapp/src/main/resources/templates/books.html" />
         <option value="$PROJECT_DIR$/spring5webapp/src/main/java/com/kajan/spring5webapp/model/Book.java" />
         <option value="$PROJECT_DIR$/spring5webapp/src/main/java/com/kajan/spring5webapp/model/Author.java" />
         <option value="$PROJECT_DIR$/petclinic/build.gradle" />
+        <option value="$PROJECT_DIR$/notes.md" />
+        <option value="$PROJECT_DIR$/spring5-di-demo/src/main/java/guru/springframework/DiDemoApplication.java" />
       </list>
     </option>
   </component>
@@ -992,6 +1025,15 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
@@ -1012,13 +1054,60 @@
               <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="petclinic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5-di-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5-di-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5-di-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5-di-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5-di-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5-di-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
+          <expand>
+            <path>
+              <item name="spring5webapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="di-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1029,13 +1118,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537516426135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537582451572" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring5-di-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -1054,7 +1144,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring5webappApplication">
+  <component name="RunManager" selected="Spring Boot.DiDemoApplication">
+    <configuration name="DiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="di-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.DiDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PetclinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="petclinic_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kajan.petclinic.PetclinicApplication" />
@@ -1072,6 +1169,7 @@
     <list>
       <item itemvalue="Spring Boot.Spring5webappApplication" />
       <item itemvalue="Spring Boot.PetclinicApplication" />
+      <item itemvalue="Spring Boot.DiDemoApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -1085,7 +1183,10 @@
       <option name="presentableId" value="Default" />
       <updated>1537498289427</updated>
       <workItem from="1537498293482" duration="5541000" />
-      <workItem from="1537515122561" duration="1199000" />
+      <workItem from="1537515122561" duration="3892000" />
+      <workItem from="1537523419269" duration="517000" />
+      <workItem from="1537525954124" duration="1032000" />
+      <workItem from="1537580504874" duration="1536000" />
     </task>
     <task id="LOCAL-00001" summary="add mock data to DB for book and author entities">
       <created>1537500960079</created>
@@ -1136,17 +1237,30 @@
       <option name="project" value="LOCAL" />
       <updated>1537503497615</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add @Qualifier, @Primary annotations to note">
+      <created>1537518765191</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1537518765192</updated>
+    </task>
+    <task id="LOCAL-00009" summary="note regarding profiles in Spring">
+      <created>1537581366656</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1537581366656</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6740000" />
+    <option name="totallyTimeSpent" value="12589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1155,7 +1269,6 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.3294702" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1165,12 +1278,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32781458" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294702" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32615894" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3294702" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3294702" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3294702" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.3294702" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1218,13 +1332,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/spring5-di-demo" />
+    </ignored-roots>
     <MESSAGE value="add mock data to DB for book and author entities" />
     <MESSAGE value="use Publisher entity instead of String" />
     <MESSAGE value="added BookController to get all books from DB" />
     <MESSAGE value="move BookController to controller package" />
     <MESSAGE value="use Publisher entity in Book instead of String" />
     <MESSAGE value="added thymeleaf template to show books list" />
-    <option name="LAST_COMMIT_MESSAGE" value="added thymeleaf template to show books list" />
+    <MESSAGE value="add @Qualifier, @Primary annotations to note" />
+    <MESSAGE value="note regarding profiles in Spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="note regarding profiles in Spring" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1259,22 +1378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1282,9 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1299,9 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="46" column="80" selection-start-line="46" selection-start-column="80" selection-end-line="46" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1309,9 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,24 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring5webapp/src/main/java/com/kajan/spring5webapp/model/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1344,9 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1364,10 +1437,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="615">
+            <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/petclinic/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        <state relative-caret-position="510">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5webapp/src/main/java/com/kajan/spring5webapp/model/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-di-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-di-demo/src/main/java/guru/springframework/DiDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5-di-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1423,7 +1544,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>petclinic|spring5webapp</last-edited>
+          <last-edited>di-demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

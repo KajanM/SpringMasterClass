@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring5-di-demo/di-demo.iml" filepath="$PROJECT_DIR$/spring5-di-demo/di-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/petclinic/petclinic.iml" filepath="$PROJECT_DIR$/petclinic/petclinic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/petclinic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/petclinic_main.iml" group="petclinic" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/petclinic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/petclinic_test.iml" group="petclinic" />
