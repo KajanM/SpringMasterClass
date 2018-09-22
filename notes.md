@@ -40,3 +40,7 @@ JDBC URL: jdbc:h2:mem:testdb
 `@Profile("en")`
 `spring.profiles.active=es`
 `@Profile({"en", "default"})`
+
+## Thymeleaf
+
+`<html lang="en" xmlns:th="http;//www.thymeleaf.org">`
