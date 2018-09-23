@@ -1,0 +1,12 @@
+kajan:
+  user: kajan
+  password: kajan
+  dburl: abljdafdsjklad
+
+logging:
+  level:
+    guru.springframework: DEBUG
+
+spring:
+  profiles:
+    active: en
