@@ -50,3 +50,13 @@ JDBC URL: jdbc:h2:mem:testdb
 ## Thymeleaf
 
 `<html lang="en" xmlns:th="http;//www.thymeleaf.org">`
+
+```
+<tbody>
+    <tr th:each="owner : ${owners}">
+        <td th:text="${owner?.id}">1</td>
+        <td th:text="${owner?.firstName}">Panda</td>
+        <td th:text="${owner?.lastName}">Karady</td>
+    </tr>
+</tbody>
+```
