@@ -2,10 +2,11 @@ package com.kajan.petclinic.service.map;
 
 import com.kajan.petclinic.model.Vet;
 import com.kajan.petclinic.service.CrudService;
+import com.kajan.petclinic.service.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Vet save(Vet vet) {
